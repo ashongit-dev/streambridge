@@ -1,0 +1,25 @@
+# Local acceptance receiver only. No host ports are published by Compose.
+logLevel: info
+api: yes
+apiAddress: :9997
+rtmp: yes
+rtsp: yes
+rtspTransports: [tcp]
+hls: no
+webrtc: no
+srt: no
+authMethod: internal
+authInternalUsers:
+  - user: any
+    pass:
+    ips: []
+    permissions:
+      - action: publish
+        path: live/check
+      - action: read
+        path: live/check
+      - action: api
+paths:
+  live/check:
+    source: publisher
+    overridePublisher: no

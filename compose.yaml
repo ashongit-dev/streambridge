@@ -1,0 +1,28 @@
+services:
+  media:
+    image: bluenviron/mediamtx:1.12.3
+    restart: unless-stopped
+    volumes:
+      - ./.runtime/mediamtx.yml:/mediamtx.yml:ro
+    ports:
+      - "1935:1935"
+    networks: [relay]
+  relay:
+    build: .
+    restart: unless-stopped
+    init: true
+    shm_size: 512mb
+    environment:
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in .env}
+      INGEST_PASSWORD: ${INGEST_PASSWORD:?Set INGEST_PASSWORD in .env}
+      PUBLIC_RTMP_URL: ${PUBLIC_RTMP_URL:-rtmp://localhost:1935}
+    ports:
+      - "${WEB_BIND:-127.0.0.1}:8080:8080"
+    volumes:
+      - relay-data:/data
+    depends_on: [media]
+    networks: [relay]
+networks:
+  relay:
+volumes:
+  relay-data:

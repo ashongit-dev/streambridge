@@ -1,0 +1,21 @@
+logLevel: warn
+api: yes
+apiAddress: :9997
+rtmp: yes
+rtmpAddress: :1935
+rtsp: yes
+rtspTransports: [tcp]
+hls: yes
+hlsVariant: mpegts
+hlsAlwaysRemux: yes
+hlsSegmentCount: 5
+hlsSegmentDuration: 1s
+webrtc: no
+srt: no
+paths:
+  desk:
+    source: publisher
+    overridePublisher: no
+  irl:
+    source: publisher
+    overridePublisher: no

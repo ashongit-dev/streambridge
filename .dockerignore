@@ -1,0 +1,12 @@
+.env
+.git
+.venv
+__pycache__
+**/__pycache__
+*.zip
+.runtime/
+test-results/
+backups/
+docs/
+validation/
+.github/

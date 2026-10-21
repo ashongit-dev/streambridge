@@ -1,0 +1,31 @@
+# Private receiver for acceptance tests. It publishes no host ports.
+services:
+  testreceiver:
+    image: bluenviron/mediamtx:1.12.3
+    volumes:
+      - ./mediamtx.test.yml:/mediamtx.yml:ro
+    networks: [relay]
+  test-desk:
+    image: streambridge-relay
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - >-
+        exec ffmpeg -nostdin -loglevel error -re
+        -f lavfi -i color=c=red:s=1280x720:r=30
+        -f lavfi -i sine=frequency=440:sample_rate=48000
+        -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -b:v 1500k -g 60
+        -c:a aac -b:a 128k -f flv
+        'rtmp://media:1935/desk?user=broadcaster&pass=${INGEST_PASSWORD}'
+    networks: [relay]
+  test-irl:
+    image: streambridge-relay
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - >-
+        exec ffmpeg -nostdin -loglevel error -re
+        -f lavfi -i color=c=blue:s=1280x720:r=30
+        -f lavfi -i sine=frequency=880:sample_rate=48000
+        -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -b:v 1500k -g 60
+        -c:a aac -b:a 128k -f flv
+        'rtmp://media:1935/irl?user=broadcaster&pass=${INGEST_PASSWORD}'
+    networks: [relay]
