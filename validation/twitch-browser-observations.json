@@ -1,0 +1,82 @@
+{
+  "channel": "Operator-provided Twitch test channel (identity omitted for repository publication)",
+  "observations": [
+    {
+      "stage": "Baseline fallback",
+      "picture": "BE RIGHT BACK",
+      "playing": true,
+      "readyState": 4,
+      "resolution": "1280x720",
+      "error": null
+    },
+    {
+      "stage": "Desk",
+      "picture": "red",
+      "playing": true,
+      "readyState": 4,
+      "currentTime": 173,
+      "error": null
+    },
+    {
+      "stage": "Browser previews",
+      "desk": {
+        "playing": true,
+        "readyState": 4
+      },
+      "irl": {
+        "playing": true,
+        "readyState": 4
+      }
+    },
+    {
+      "stage": "Manual IRL",
+      "picture": "blue",
+      "playing": true,
+      "readyState": 4,
+      "currentTime": 242,
+      "error": null
+    },
+    {
+      "stage": "Desk before feed loss",
+      "picture": "red",
+      "playing": true,
+      "readyState": 4,
+      "currentTime": 277,
+      "error": null
+    },
+    {
+      "stage": "Automatic failover after desk loss",
+      "picture": "blue",
+      "playing": true,
+      "readyState": 4,
+      "currentTime": 312,
+      "error": null
+    },
+    {
+      "stage": "Both inputs lost",
+      "picture": "BE RIGHT BACK",
+      "playing": true,
+      "readyState": 4,
+      "currentTime": 349,
+      "error": null
+    },
+    {
+      "stage": "Recovery to preferred desk",
+      "picture": "red",
+      "playing": true,
+      "readyState": 4,
+      "currentTime": 411,
+      "error": null
+    },
+    {
+      "stage": "Forced fallback with healthy inputs",
+      "picture": "BE RIGHT BACK",
+      "playing": true,
+      "readyState": 4,
+      "currentTime": 472,
+      "error": null
+    }
+  ],
+  "final_output_offline": true,
+  "audio_listening_verified": false
+}

@@ -1,0 +1,218 @@
+{
+  "results": [
+    {
+      "test": "Docker image builds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Core and API unit tests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Encoder connects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Feed server authentication accepts configured credentials and denies anonymous/wrong credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Local receiver API is ready",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Local RTMP output starts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver has video and AAC audio",
+      "passed": true,
+      "detail": {
+        "tracks": [
+          "H264",
+          "MPEG-4 Audio"
+        ]
+      }
+    },
+    {
+      "test": "Receiver picture: fallback",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          22,
+          30,
+          50
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "Fallback stays live for 60 seconds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Both test inputs become healthy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Desk replaces fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver picture: red",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          236,
+          2,
+          2
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "desk preview playlist and video segment load",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "irl preview playlist and video segment load",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Switch to irl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver picture: blue",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          5,
+          0,
+          246
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "Switch to desk",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Desk loss selects IRL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver picture: blue",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          5,
+          0,
+          246
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "Both feeds lost selects fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver picture: fallback",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          22,
+          30,
+          50
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "Preferred desk recovers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver picture: red",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          236,
+          2,
+          2
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "Manual mode uses fallback despite healthy IRL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver picture: fallback",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          22,
+          30,
+          50
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "Switch to fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Inputs return while fallback is forced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Receiver picture: fallback",
+      "passed": true,
+      "detail": {
+        "median_rgb": [
+          22,
+          30,
+          50
+        ],
+        "consecutive_matching_frames": 15
+      }
+    },
+    {
+      "test": "One receiver RTMP connection survived all source changes",
+      "passed": true,
+      "detail": {
+        "connection_id": "1e8dcb16-9d61-4f2e-8f01-d296e8379d55"
+      }
+    },
+    {
+      "test": "Test output stopped",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "cleanup_errors": []
+}

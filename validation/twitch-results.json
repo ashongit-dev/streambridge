@@ -1,0 +1,1515 @@
+{
+  "started_at": "2026-10-21T22:37:13.049534+00:00",
+  "stages": [
+    {
+      "name": "Baseline: fallback on Twitch",
+      "expected_source": "fallback",
+      "elapsed_seconds": 0
+    },
+    {
+      "name": "Desk: RED picture with 440 Hz tone",
+      "expected_source": "desk",
+      "elapsed_seconds": 48
+    },
+    {
+      "name": "IRL: BLUE picture with 880 Hz tone",
+      "expected_source": "irl",
+      "elapsed_seconds": 96
+    },
+    {
+      "name": "Desk before simulated disconnection: RED",
+      "expected_source": "desk",
+      "elapsed_seconds": 145
+    },
+    {
+      "name": "Automatic failover to IRL: BLUE",
+      "expected_source": "irl",
+      "elapsed_seconds": 175
+    },
+    {
+      "name": "Both feeds lost: fallback graphic",
+      "expected_source": "fallback",
+      "elapsed_seconds": 224
+    },
+    {
+      "name": "Preferred desk recovered: RED",
+      "expected_source": "desk",
+      "elapsed_seconds": 283
+    },
+    {
+      "name": "Forced fallback with both inputs healthy",
+      "expected_source": "fallback",
+      "elapsed_seconds": 331
+    }
+  ],
+  "samples": [
+    {
+      "elapsed_seconds": 0,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 73724495,
+      "frames": 3923,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 0,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 73724495,
+      "frames": 3923,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 2,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 74852934,
+      "frames": 3983,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 4,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 76056601,
+      "frames": 4047,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 6,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 77185063,
+      "frames": 4107,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 8,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 78332256,
+      "frames": 4168,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 10,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 79460701,
+      "frames": 4228,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 12,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 80607911,
+      "frames": 4289,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 14,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 81755127,
+      "frames": 4350,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 16,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 82883549,
+      "frames": 4410,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 18,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 84011988,
+      "frames": 4470,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 20,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 85159204,
+      "frames": 4531,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 22,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 86325254,
+      "frames": 4593,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 24,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 87453676,
+      "frames": 4653,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 26,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 88582098,
+      "frames": 4713,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 28,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 89729331,
+      "frames": 4774,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 30,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 90876524,
+      "frames": 4835,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 32,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 92004969,
+      "frames": 4895,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 34,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 93152202,
+      "frames": 4956,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 36,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 94280624,
+      "frames": 5016,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 38,
+      "stage": "Baseline: fallback on Twitch",
+      "active": "fallback",
+      "output_bytes": 95427840,
+      "frames": 5077,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 42,
+      "stage": "Starting the desk and IRL test feeds",
+      "active": "fallback",
+      "output_bytes": 97703495,
+      "frames": 5198,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 44,
+      "stage": "Starting the desk and IRL test feeds",
+      "active": "fallback",
+      "output_bytes": 98831957,
+      "frames": 5258,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 46,
+      "stage": "Starting the desk and IRL test feeds",
+      "active": "fallback",
+      "output_bytes": 99979150,
+      "frames": 5319,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 48,
+      "stage": "Starting the desk and IRL test feeds",
+      "active": "desk",
+      "output_bytes": 101126366,
+      "frames": 5380,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 48,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 101126366,
+      "frames": 5380,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 48,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 101126366,
+      "frames": 5380,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 50,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 102274846,
+      "frames": 5440,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 52,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 103462010,
+      "frames": 5501,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 54,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 104629947,
+      "frames": 5561,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 56,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 105817117,
+      "frames": 5622,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 58,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 106985062,
+      "frames": 5682,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 60,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 108172218,
+      "frames": 5743,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 62,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 109320511,
+      "frames": 5802,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 64,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 109685907,
+      "frames": 5822,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 66,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 111180699,
+      "frames": 5898,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 68,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 112406734,
+      "frames": 5961,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 70,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 113206520,
+      "frames": 6004,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 72,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 114660800,
+      "frames": 6079,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 74,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 115848560,
+      "frames": 6140,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 77,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 116997311,
+      "frames": 6199,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 80,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 117638911,
+      "frames": 6232,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 82,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 118243005,
+      "frames": 6264,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 84,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 119635659,
+      "frames": 6335,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 86,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 121159719,
+      "frames": 6415,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 88,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 122474504,
+      "frames": 6483,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 90,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 124031862,
+      "frames": 6564,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 92,
+      "stage": "Desk: RED picture with 440 Hz tone",
+      "active": "desk",
+      "output_bytes": 125276649,
+      "frames": 6628,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 94,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "desk",
+      "output_bytes": 126463823,
+      "frames": 6689,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 96,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 127651869,
+      "frames": 6750,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 96,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 127651869,
+      "frames": 6750,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 98,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 128839032,
+      "frames": 6811,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 100,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 130006976,
+      "frames": 6871,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 102,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 131229399,
+      "frames": 6934,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 104,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 132401262,
+      "frames": 6995,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 106,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 133570102,
+      "frames": 7055,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 108,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 134776034,
+      "frames": 7117,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 110,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 135963647,
+      "frames": 7178,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 112,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 137150798,
+      "frames": 7239,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 114,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 138338408,
+      "frames": 7300,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 116,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 139564448,
+      "frames": 7363,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 118,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 140809700,
+      "frames": 7427,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 120,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 141997737,
+      "frames": 7488,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 122,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 143223770,
+      "frames": 7551,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 124,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 144430606,
+      "frames": 7613,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 127,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 145014570,
+      "frames": 7643,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 129,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 146221392,
+      "frames": 7706,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 131,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 147409024,
+      "frames": 7767,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 133,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 148635047,
+      "frames": 7829,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 135,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 149860654,
+      "frames": 7892,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 137,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 150990151,
+      "frames": 7950,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 139,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 152235867,
+      "frames": 8014,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 141,
+      "stage": "IRL: BLUE picture with 880 Hz tone",
+      "active": "irl",
+      "output_bytes": 153481556,
+      "frames": 8079,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 143,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "irl",
+      "output_bytes": 154590505,
+      "frames": 8135,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 145,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 155594760,
+      "frames": 8187,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 145,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 155594760,
+      "frames": 8187,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 147,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 156101016,
+      "frames": 8213,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 149,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 157074149,
+      "frames": 8264,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 151,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 158511490,
+      "frames": 8337,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 153,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 158920322,
+      "frames": 8358,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 155,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 159601682,
+      "frames": 8393,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 158,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 160720328,
+      "frames": 8452,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 160,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 162114909,
+      "frames": 8524,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 162,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 163748113,
+      "frames": 8609,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 164,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 165455460,
+      "frames": 8699,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 166,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 167207863,
+      "frames": 8788,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 168,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 168394563,
+      "frames": 8849,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 170,
+      "stage": "Desk before simulated disconnection: RED",
+      "active": "desk",
+      "output_bytes": 169639824,
+      "frames": 8913,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 173,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "desk",
+      "output_bytes": 170827439,
+      "frames": 8974,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 175,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 171997722,
+      "frames": 9035,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 175,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 171997722,
+      "frames": 9035,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 177,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 173202828,
+      "frames": 9097,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 179,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 174352002,
+      "frames": 9157,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 181,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 175559468,
+      "frames": 9218,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 183,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 176746360,
+      "frames": 9279,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 185,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 177914775,
+      "frames": 9339,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 187,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 179139923,
+      "frames": 9402,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 189,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 180296202,
+      "frames": 9462,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 191,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 181518361,
+      "frames": 9525,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 193,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 182176777,
+      "frames": 9559,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 195,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 183930857,
+      "frames": 9649,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 197,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 184981193,
+      "frames": 9703,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 199,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 186286076,
+      "frames": 9771,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 201,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 187375409,
+      "frames": 9827,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 203,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 188675058,
+      "frames": 9894,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 205,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 189958349,
+      "frames": 9960,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 207,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 191174105,
+      "frames": 10023,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 209,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 192238788,
+      "frames": 10078,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 211,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 193574736,
+      "frames": 10147,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 213,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 194742870,
+      "frames": 10207,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 215,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 195942211,
+      "frames": 10269,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 217,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 197130273,
+      "frames": 10330,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 219,
+      "stage": "Automatic failover to IRL: BLUE",
+      "active": "irl",
+      "output_bytes": 198301754,
+      "frames": 10390,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 222,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "irl",
+      "output_bytes": 200076247,
+      "frames": 10481,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 224,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 201303764,
+      "frames": 10544,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 224,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 201303764,
+      "frames": 10544,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 226,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 202493846,
+      "frames": 10605,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 228,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 203663026,
+      "frames": 10665,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 230,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 204820618,
+      "frames": 10726,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 232,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 205967834,
+      "frames": 10787,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 234,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 207096296,
+      "frames": 10847,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 236,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 208243512,
+      "frames": 10908,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 238,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 209371957,
+      "frames": 10968,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 240,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 210519167,
+      "frames": 11029,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 243,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 211647589,
+      "frames": 11089,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 245,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 212776051,
+      "frames": 11149,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 247,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 213923244,
+      "frames": 11210,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 249,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 215051689,
+      "frames": 11270,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 251,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 216198899,
+      "frames": 11331,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 253,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 217327344,
+      "frames": 11391,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 255,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 218493331,
+      "frames": 11453,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 257,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 219640564,
+      "frames": 11514,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 259,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 220769032,
+      "frames": 11574,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 261,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 221916202,
+      "frames": 11635,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 263,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 223082275,
+      "frames": 11697,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 265,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 224210720,
+      "frames": 11757,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 267,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 225376724,
+      "frames": 11819,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 269,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 226505169,
+      "frames": 11879,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 271,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 227652408,
+      "frames": 11940,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 273,
+      "stage": "Both feeds lost: fallback graphic",
+      "active": "fallback",
+      "output_bytes": 228818412,
+      "frames": 12002,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 277,
+      "stage": "Reconnecting both test feeds",
+      "active": "fallback",
+      "output_bytes": 230529839,
+      "frames": 12093,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 279,
+      "stage": "Reconnecting both test feeds",
+      "active": "fallback",
+      "output_bytes": 231677072,
+      "frames": 12154,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 281,
+      "stage": "Reconnecting both test feeds",
+      "active": "fallback",
+      "output_bytes": 232805517,
+      "frames": 12214,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 283,
+      "stage": "Reconnecting both test feeds",
+      "active": "desk",
+      "output_bytes": 233952756,
+      "frames": 12275,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 283,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 233952756,
+      "frames": 12275,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 283,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 233952756,
+      "frames": 12275,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 285,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 235099989,
+      "frames": 12337,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 287,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 236247182,
+      "frames": 12397,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 289,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 237419082,
+      "frames": 12458,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 291,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 238605800,
+      "frames": 12519,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 293,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 239774191,
+      "frames": 12579,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 295,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 240980130,
+      "frames": 12641,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 297,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 242167725,
+      "frames": 12702,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 299,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 243336135,
+      "frames": 12762,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 301,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 244562165,
+      "frames": 12825,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 303,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 245749763,
+      "frames": 12886,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 305,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 246936935,
+      "frames": 12947,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 307,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 248124089,
+      "frames": 13008,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 309,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 249311256,
+      "frames": 13069,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 311,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 250537729,
+      "frames": 13133,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 313,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 251724470,
+      "frames": 13193,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 315,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 252970156,
+      "frames": 13257,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 317,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 254157312,
+      "frames": 13318,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 319,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 255421172,
+      "frames": 13383,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 321,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 256608773,
+      "frames": 13444,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 323,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 257795504,
+      "frames": 13505,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 325,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 258959969,
+      "frames": 13565,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 327,
+      "stage": "Preferred desk recovered: RED",
+      "active": "desk",
+      "output_bytes": 260166343,
+      "frames": 13627,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 329,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "desk",
+      "output_bytes": 261353958,
+      "frames": 13688,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 331,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 262560766,
+      "frames": 13751,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 331,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 262560766,
+      "frames": 13751,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 333,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 263767144,
+      "frames": 13812,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 335,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 264973968,
+      "frames": 13874,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 337,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 266149279,
+      "frames": 13936,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 339,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 266732284,
+      "frames": 13967,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 341,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 267860729,
+      "frames": 14027,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 343,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 269007945,
+      "frames": 14088,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 345,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 270155178,
+      "frames": 14149,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 347,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 271302417,
+      "frames": 14210,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 349,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 272449627,
+      "frames": 14271,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 351,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 273578095,
+      "frames": 14331,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 353,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 274725265,
+      "frames": 14392,
+      "dropped": 0
+    },
+    {
+      "elapsed_seconds": 355,
+      "stage": "Forced fallback with both inputs healthy",
+      "active": "fallback",
+      "output_bytes": 275853750,
+      "frames": 14452,
+      "dropped": 0
+    }
+  ],
+  "passed": true,
+  "output_stopped": true,
+  "cleanup_errors": [],
+  "finished_at": "2026-10-21T22:43:18.248412+00:00"
+}
