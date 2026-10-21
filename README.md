@@ -365,3 +365,7 @@ Reports are saved under `test-results/`. Treat diagnostics as private: OBS logs 
 [OBS Studio](https://github.com/obsproject/obs-studio) · [MediaMTX](https://github.com/bluenviron/mediamtx) · [Flask](https://flask.palletsprojects.com/) · [Gunicorn](https://gunicorn.org/) · [HLS.js](https://github.com/video-dev/hls.js)
 
 Third-party projects retain their own licenses. The HLS.js license is downloaded alongside its browser asset during the image build.
+
+## Credits
+
+Built with [OpenAI Codex](https://openai.com/codex/), which assisted with implementation, debugging, testing, and documentation.
